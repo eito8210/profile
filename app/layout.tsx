@@ -40,10 +40,10 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <header className="w-full h-16 flex items-center border-b justify-end">
-          <ul className="flex gap-4 items-center">
+        <header className="w-full h-16 flex items-center border-b justify-end pr-4">
+        <ul className="flex gap-6 items-center ml-6">
           {navItems.map((item => <li key={item.label}>
-            <Button variant="outline" asChild>
+            <Button variant="outline" asChild className ="text-lg border-b">
             <Link href={item.herf}>{item.label}</Link>
             </Button>
 
