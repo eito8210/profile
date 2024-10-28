@@ -41,7 +41,7 @@ export default function RootLayout({
         <header className="w-full h-16 flex items-center border-b justify-end pr-4">
         <ul className="flex gap-6 items-center ml-6">
           {navItems.map((item => <li key={item.label}>
-            <Button variant="outline" asChild className ="text-lg border-b">
+            <Button variant="outline" asChild className ="text-lg border-b text-primary">
             <Link href={item.herf}>{item.label}</Link>
             </Button>
 
