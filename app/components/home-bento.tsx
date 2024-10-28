@@ -16,7 +16,7 @@ const features = [
     href: "/",
     cta: "Learn more",
     background: <img className="absolute -right-20 -top-20 opacity-60" />,
-    className: "lg:row-start-1 lg:row-end-4 lg:col-start-2 lg:col-end-3",
+    className: "lg:row-start-1 lg:row-end-4 lg:col-start-2 lg:col-end-3 text-primary",
   },
   {
     Icon: FileTextIcon,
@@ -68,7 +68,7 @@ const features = [
 
 export async function BentoDemo() {
   return (
-    <BentoGrid className="lg:grid-rows-4">
+    <BentoGrid className="lg:grid-rows-4 text-primary">
       {features.map((feature) => (
         <BentoCard key={feature.name} {...feature} />
       ))}
