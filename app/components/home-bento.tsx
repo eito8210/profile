@@ -13,7 +13,7 @@ const features = [
     Icon: FileTextIcon,
     name: "About",
     description: "We automatically save your files as you type.",
-    href: "/about",
+    href: "/",
     cta: "Learn more",
     background: <img className="absolute -right-20 -top-20 opacity-60" />,
     className: "lg:row-start-1 lg:row-end-4 lg:col-start-2 lg:col-end-3 text-primary",
