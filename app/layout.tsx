@@ -23,11 +23,9 @@ export const metadata: Metadata = {
 const navItems = [
   {label: 'Home', herf: '/'},
   {label: 'About', herf: '/about'},
-  {label: 'Education', herf: '/Education'},
+  {label: 'Education', herf: '/education'},
   {label: 'Hobby', herf: '/Hobby'},
   {label: 'Contact', herf: '/contact'},
-
-  
 ]
 
 export default function RootLayout({
@@ -36,13 +34,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <header className="w-full h-16 flex items-center border-b justify-end pr-4">
         <ul className="flex gap-6 items-center ml-6">
           {navItems.map((item => <li key={item.label}>
-            <Button variant="outline" asChild className ="text-lg border-b">
+            <Button variant="outline" asChild className ="text-lg border-b text-primary">
             <Link href={item.herf}>{item.label}</Link>
             </Button>
 
