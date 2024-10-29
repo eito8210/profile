@@ -25,7 +25,7 @@ const navItems = [
   {label: 'Home', herf: '/'},
   {label: 'About', herf: '/about'},
   {label: 'Education', herf: '/education'},
-  {label: 'Hobby', herf: '/Hobby'},
+  {label: 'Hobby', herf: '/hobby'},
   {label: 'Contact', herf: '/contact'},
 ]
 

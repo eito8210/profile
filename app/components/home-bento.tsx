@@ -32,7 +32,7 @@ const features = [
     Icon: FileTextIcon,
     name: "Hobby",
     description: "We automatically save your files as you type.",
-    href: "/",
+    href: "/hobby",
     cta: "Learn more",
     background: (
       <Image 
@@ -49,7 +49,7 @@ const features = [
     Icon: InputIcon,
     name: "Education",
     description: "Search through all your files in one place.",
-    href: "/",
+    href: "/education",
     cta: "Learn more",
     background: (
       <Image 
@@ -66,7 +66,7 @@ const features = [
     Icon: GlobeIcon,
     name: "Contact",
     description: "Supports 100+ languages and counting.",
-    href: "/",
+    href: "/contact",
     cta: "Learn more",
     background: (
       <Image 
