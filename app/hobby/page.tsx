@@ -2,10 +2,10 @@
 
 
 
-export default function Hobby() {
+export default function Home() {
   return(
     <div>
-      hello worl
+      This is hobby page.
     </div>
   );
 }
