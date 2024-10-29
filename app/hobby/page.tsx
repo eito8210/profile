@@ -1,4 +1,5 @@
-import { div } from "framer-motion/client";
+//import { div } from "framer-motion/client";
+
 
 
 export default function Hobby() {
