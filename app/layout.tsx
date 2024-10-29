@@ -3,7 +3,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
-
+import nextConfig from "../next.config";
+const BASE_PATH = nextConfig.basePath || "";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
