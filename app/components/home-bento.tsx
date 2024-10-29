@@ -15,7 +15,7 @@ const features = [
     Icon: FileTextIcon,
     name: "About",
     description: "We automatically save your files as you type.",
-    href: "/",
+    href: "/about",
     cta: "Learn more",
     background: (
       <Image 
