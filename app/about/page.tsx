@@ -3,7 +3,7 @@
 import { CardDemo } from "./components/CardDemo";
 
 
-export default function Home() {
+export default function About() {
     return (
         <div className="mt-16">
             <CardDemo />
