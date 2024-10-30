@@ -18,7 +18,7 @@ export function CardDemo() {
                 
                 <div
                     className="w-1/2 bg-cover bg-center relative transition-all duration-500"
-                    style={{ backgroundImage: "url('/Eito.jpg')" }}
+                    style={{ backgroundImage: '/Eito.jpg' }}
                 >
                     <div className="absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity duration-500"></div>
                 </div>
