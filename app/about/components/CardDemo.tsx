@@ -2,6 +2,7 @@
 "use client";
 
 import React from 'react';
+import Image from 'next/image';
 
 export function CardDemo() {
     return (
@@ -16,10 +17,14 @@ export function CardDemo() {
                     </p>
                 </div>
                 
-                <div
-                    className="w-1/2 bg-cover bg-center relative transition-all duration-500"
-                    style={{ backgroundImage: '/Eito.jpg' }}
-                >
+                <div className="w-1/2 relative">
+                    <Image
+                        src="/Eito.jpg" 
+                        alt="Eito Nishikawa"
+                        layout="fill"
+                        objectFit="cover"
+                        className="transition-all duration-500"
+                    />
                     <div className="absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity duration-500"></div>
                 </div>
             </div>
