@@ -1,5 +1,5 @@
 //import { div } from "framer-motion/client";
-
+'use client';
 import {
   ResizableHandle,
   ResizablePanel,
