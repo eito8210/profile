@@ -1,12 +1,11 @@
 "use client";
 
-import { CardDemo } from "./components/CardDemo";
+import { ResizableDemo1} from "./components/Handle2";
 
-
-export default function About() {
+export default function Home() {
     return (
         <div className="mt-16">
-            <CardDemo />
+            <ResizableDemo1 />
         </div>
     );
 }
