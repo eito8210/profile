@@ -2,7 +2,6 @@
 "use client";
 
 import React from 'react';
-import { cn } from "@/lib/utils";
 
 export function CardDemo() {
     return (
@@ -18,7 +17,8 @@ export function CardDemo() {
                 </div>
                 
                 <div
-                    className={cn("w-1/2 bg-cover bg-center relative", "bg-[url('/Eito.jpg')]", "transition-all duration-500")}
+                    className="w-1/2 bg-cover bg-center relative transition-all duration-500"
+                    style={{ backgroundImage: "url('/Eito.jpg')" }}
                 >
                     <div className="absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity duration-500"></div>
                 </div>
