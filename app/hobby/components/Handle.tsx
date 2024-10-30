@@ -1,10 +1,20 @@
+"use client";
+
 import {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
 } from "@/components/ui/resizable"
 
+import { useEffect } from 'react';
+
 export function ResizableDemo() {
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      
+      console.log("This code runs only in the browser.");
+    }
+  }, []);
   return (
     <div className="w-full h-[calc(100vh-5rem)] p-4 box-border">
       <ResizablePanelGroup
