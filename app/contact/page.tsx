@@ -1,6 +1,6 @@
 import { Github, Instagram, Phone, PhoneForwarded, Youtube, Twitter } from "lucide-react";
 
-export default function Home() {
+export default function Contact() {
   return (
     <div className="flex flex-col items-center mt-10 space-y-8"> 
       <div className="flex space-x-16"> 
