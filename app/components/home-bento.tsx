@@ -14,7 +14,7 @@ const features = [
   {
     Icon: FileTextIcon,
     name: "About",
-    description: "We automatically save your files as you type.",
+    description: "Explain about Eito Nishikawa.",
     href: "/about",
     cta: "Learn more",
     background: (
@@ -31,7 +31,7 @@ const features = [
   {
     Icon: FileTextIcon,
     name: "Hobby",
-    description: "We automatically save your files as you type.",
+    description: "Introduce my hobby.",
     href: "/hobby",
     cta: "Learn more",
     background: (
@@ -48,7 +48,7 @@ const features = [
   {
     Icon: InputIcon,
     name: "Education",
-    description: "Search through all your files in one place.",
+    description: "Show you my education and work experience.",
     href: "/education",
     cta: "Learn more",
     background: (
@@ -65,7 +65,7 @@ const features = [
   {
     Icon: GlobeIcon,
     name: "Contact",
-    description: "Supports 100+ languages and counting.",
+    description: "This is my information.",
     href: "/contact",
     cta: "Learn more",
     background: (
